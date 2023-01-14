@@ -1,3 +1,5 @@
+// styles
+import "./app.scss"
 // components
 import { LoginPage } from "./components/LoginPage";
 

@@ -1,11 +1,10 @@
-$color-primary: #f5f7f9;
-$color-secondary: #157afe;
+
 
 .px-1{
     padding-left: 8px;
     padding-right: 8px;
 }
 .left-column {
-  background-color: $color-primary;
+  background-color: var(--background-color);
 }
 

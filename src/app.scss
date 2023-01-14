@@ -1,0 +1,9 @@
+$color-primary: #f5f7f9;
+$color-secondary: #157afe;
+$text-color: #92959C;
+
+:root {
+  --background-color: #{$color-primary};
+  --text-color: #{$text-color};
+  --button-color: #{$color-secondary};
+}
