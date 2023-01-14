@@ -2,6 +2,7 @@
 
 //mantine components
 import { Grid, Skeleton, Container } from "@mantine/core";
+import { Title } from "./components/Title";
 // styles
 import "./index.scss";
 
@@ -18,11 +19,15 @@ export function LoginPage() {
           1
         </Grid.Col>
         <Grid.Col span={7} className="right-column">
+          <Title font="1.9em" title="Welcome back!">
+            Start managin your finance faster and better
+          </Title>
           {/* 
           title
           form
           <p>
-          */}2
+          */}
+          2
         </Grid.Col>
       </Grid>
     </Container>
