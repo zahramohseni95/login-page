@@ -1,9 +1,12 @@
+// local component
 import { Carousel } from "@mantine/carousel";
 import { Finotic } from "./components/Finotic";
+// styles
+import "./index.scss"
 
 export default function Slider() {
   return (
-    <div style={{ height: "100%", display: "flex" }}>
+    <div className="slider-position">
       <Carousel
         sx={{ flex: 1 }}
         withIndicators
