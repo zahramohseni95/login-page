@@ -1,10 +1,25 @@
-
-
-.px-1{
-    padding-left: 8px;
-    padding-right: 8px;
+.px-1 {
+  padding-left: 8px;
+  padding-right: 8px;
 }
 .left-column {
   background-color: var(--background-color);
+  height: 100vh;
 }
-
+.form-position {
+  width: 50%;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+}
+.sign-up-text {
+  color: var(--text-color);
+  text-align: center;
+  font-size: 14px;
+  a {
+    color: var(--input-color);
+    text-decoration: none;
+    font-weight: bold;
+  }
+}
