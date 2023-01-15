@@ -10,13 +10,13 @@ export function LoginPage() {
   return (
     <Container fluid className="px-1">
       <Grid>
-        <Grid.Col span={5} className="left-column">
+        <Grid.Col xs={5} className="left-column">
           {/* 
           slider or ...
           */}
           1
         </Grid.Col>
-        <Grid.Col span={7} className="right-column">
+        <Grid.Col xs={7} className="right-column">
           <div className="form-position">
             <Title font="1.9em" title="Welcome back!">
               Start managin your finance faster and better
@@ -26,6 +26,7 @@ export function LoginPage() {
               Don't you have an account? <a href="#">Sign Up</a>
             </p>
           </div>
+          <span className="copyright">©2022 ALL RIGHTS RESERVED</span>
         </Grid.Col>
       </Grid>
     </Container>
