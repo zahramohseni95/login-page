@@ -1,6 +1,7 @@
 //local components
 import { Form } from "./components/Form";
 import { Title } from "./components/Title";
+import Slider from "./components/Slider";
 //mantine components
 import { Grid, Container } from "@mantine/core";
 // styles
@@ -11,10 +12,7 @@ export function LoginPage() {
     <Container fluid className="px-1">
       <Grid>
         <Grid.Col xs={5} className="left-column">
-          {/* 
-          slider or ...
-          */}
-          1
+          <Slider />
         </Grid.Col>
         <Grid.Col xs={7} className="right-column">
           <div className="form-position">
