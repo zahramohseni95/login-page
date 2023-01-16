@@ -11,10 +11,10 @@ export function LoginPage() {
   return (
     <Container fluid className="px-1">
       <Grid>
-        <Grid.Col xs={5} className="left-column">
+        <Grid.Col sm={5} className="left-column">
           <Slider />
         </Grid.Col>
-        <Grid.Col xs={7} className="right-column">
+        <Grid.Col sm={7} className="right-column">
           <div className="form-position">
             <Title font="1.9em" title="Welcome back!">
               Start managin your finance faster and better
