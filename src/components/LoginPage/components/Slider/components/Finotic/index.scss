@@ -7,6 +7,8 @@
   .card-1 {
     background-color: #fefefe;
     position: relative;
+    top:6px;
+    left: -20%;
     padding: 16px;
     color: var(--text-color);
     svg {
@@ -15,6 +17,7 @@
     }
     p {
       margin-top: 0.1em;
+      font-size: 14px;
     }
     p:last-child {
       font-weight: bold;
@@ -28,6 +31,8 @@
   .card-2 {
     background-color: #fff;
     position: relative;
+    top:-60px;
+    left: 32px;
     .mantine-RingProgress-root {
       circle:not(:first-child):hover {
         stroke-width: 20;
@@ -45,9 +50,12 @@
     }
   }
   .card-3 {
-    padding: 24px 30px;
+    padding: 24px 60px;
     background-color: #fafafa;
-    position: relative;
+    position: absolute;
+    top: 216px;
+    left: 10px;
+    z-index: -1;
     outline: 1px dashed var(--text-color);
     outline-offset: -8px;
     text-align: center;
