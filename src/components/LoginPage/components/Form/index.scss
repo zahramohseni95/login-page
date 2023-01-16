@@ -1,0 +1,34 @@
+.form-input {
+  .mantine-Input-input {
+    background-color: var(--background-color);
+    border: none;
+  }
+}
+.input-icon {
+  color: var(--input-color);
+  background-color: #fff;
+  width: 75%;
+  height: 75%;
+  padding: 5px;
+  border-radius: 4px;
+}
+.forgot-password-link {
+  color: var(--input-color);
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 14px;
+  float: right;
+  margin: 8px 0;
+}
+.login-button {
+  background-color: var(--input-color);
+  width: 100%;
+}
+.divider {
+  color: var(--text-color);
+}
+.sm-wrapper {
+  display: flex;
+  margin: 24px 0;
+  justify-content: space-between;
+}
